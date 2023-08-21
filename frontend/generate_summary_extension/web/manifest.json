@@ -1,0 +1,23 @@
+{
+    "name": "Summary generator Extension",
+    "description": "Provides Summary and Significant points for the displayed web page",
+    "version": "1.0.0",
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "icons": {
+        "128": "icons/Summary-Generator.png",
+        "16": "icons/Summary-Generator.png",
+        "32": "icons/Summary-Generator.png",
+        "64": "icons/Summary-Generator.png"
+    },
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "icons/Summary-Generator.png"
+    },
+    "permissions": [
+        "tabs",
+        "activeTab"
+    ],
+    "manifest_version": 3
+}
